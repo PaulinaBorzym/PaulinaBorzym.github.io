@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     var apiRoot = 'https://task.paulinaborzym1.repl.co/v1/tasks';
     var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-    var tasksContainer = $('[datatable__tasks-container]');
+    var tasksContainer = $('[data-tasks-container]');
   
     // init
     getAllTasks();
